@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <filter id="filter-1" filterUnits="userSpaceOnUse" x="0" y="9" width="128" height="108" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2" color-interpolation-filters="linearRGB"/></filter>
+    <linearGradient id="linear-gradient-1" x1="30.7" y1="14.5" x2="69.497" y2="110.734" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#54575c"/>
+      <stop offset="0.52" stop-color="#41444a"/>
+      <stop offset="1" stop-color="#25282e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="8.5" y1="14.5" x2="15.742" y2="104.311" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#81858a"/>
+      <stop offset="1" stop-color="#32353a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="18.93" y1="28" x2="54.504" y2="117.168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffec41"/>
+      <stop offset="0.42" stop-color="#ffd62a"/>
+      <stop offset="1" stop-color="#fab018"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="7" y1="32" x2="88.465" y2="141.259" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcc504"/>
+      <stop offset="0.36" stop-color="#fcb105"/>
+      <stop offset="0.7" stop-color="#f99a07"/>
+      <stop offset="1" stop-color="#f68a08"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="7" y1="32" x2="41.777" y2="125.285" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe544"/>
+      <stop offset="1" stop-color="#f7810a"/>
+    </linearGradient>
+    <clipPath id="clip-path-1">
+      <path d="M7 52 C7 44 14 38 23 38 L66 38 C68.667 38 71.333 36.667 74 34 C76.667 32.667 80 32 84 32 L107 32 C116 32 121 39 121 49 L121 105 C121 113 115 117 107 117 L21 117 C13 117 7 112 7 103 Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" x1="39" y1="50" x2="106.526" y2="133.185" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ee900c"/>
+      <stop offset="0.46" stop-color="#fb7a08"/>
+      <stop offset="1" stop-color="#ef560c"/>
+    </linearGradient>
+  </defs>
+  <title>folder-templates.svg</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <g filter="url(#filter-1)">
+      <path d="M8 59 L8 29 C8 21 14 17 22 17 L48 17 C54 17 56 19 60 24 L70 36 C73 40 76 40 83 40 L107 40 C115 40 120 45 120 53 L120 109 L8 109 Z" fill="#000000" opacity="0.31"/>
+    </g>
+    <path d="M8.5 54 L8.5 26 C8.5 18.5 14 14.5 22 14.5 L48 14.5 C53.8 14.5 56 17.5 60 22 L70 33 C72.5 36.5 75.5 37 83 37 L108 37 C115 37 119.5 42 119.5 49 L119.5 104 L8.5 104 Z" fill="url(#linear-gradient-1)" stroke="url(#linear-gradient-2)" stroke-width="1.15"/>
+    <path d="M21 15.3 L48 15.3 C54 15.3 56 18 59 22.5 L69.5 34.5" fill="none" stroke="#9fa2a6" stroke-width="0.8" opacity="0.38"/>
+    <path d="M7.5 56 L7.5 51 C7.5 41 14.5 36 24 36 L66 36 C70 36 72 32 76 29.8 C78 28.5 81 28 86 28 L107 28 C116.5 28 121.8 35 121.8 45 L121.8 104 L7.5 104 Z" fill="url(#linear-gradient-3)" stroke="#ffd72d" stroke-width="0.4"/>
+    <path d="M7 52 C7 44 14 38 23 38 L66 38 C68.667 38 71.333 36.667 74 34 C76.667 32.667 80 32 84 32 L107 32 C116 32 121 39 121 49 L121 105 C121 113 115 117 107 117 L21 117 C13 117 7 112 7 103 Z" fill="url(#linear-gradient-4)" stroke="url(#linear-gradient-5)" stroke-width="1.15"/>
+    <g clip-path="url(#clip-path-1)">
+      <polygon points="121,50 39,119 124,119" fill="url(#linear-gradient-6)" opacity="0.8"/>
+      <polygon points="121,50 62,106 70,116 122,116" fill="#f66c09" opacity="0.3"/>
+    </g>
+    <path d="M8 53 C8 47 12 42.667 20 40" fill="none" stroke="#ffda45" opacity="0.46"/>
+    <path d="M8.5 105 C9.167 111.667 13.333 115.333 21 116 L108 116 C115.333 115.333 119.333 111.667 120 105" fill="none" stroke="#d65f07" stroke-width="0.85" opacity="0.36"/>
+    <g>
+      <path d="M43.42 42.6 L67.6 42.6 L80.08 55.86 L80.08 107.34 C80.08 108.9 79.04 109.68 76.96 109.68 L43.42 109.68 C41.34 109.68 40.3 108.64 40.3 106.56 L40.3 46.5 C40.3 43.9 41.34 42.6 43.42 42.6 Z" fill="#54575c"/>
+      <path d="M67.6 42.6 L67.6 55.08 C67.6 56.64 68.64 57.42 70.72 57.42 L80.08 57.42 Z" fill="#ff9a14"/>
+      <path d="M48.1 69.12 L72.28 69.12 M48.1 78.48 L71.5 78.48 M48.1 87.84 L71.5 87.84 M48.1 97.2 L65.26 97.2" fill="none" stroke="#f56b14" stroke-width="3.51" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
