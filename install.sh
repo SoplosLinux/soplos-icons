@@ -4,7 +4,7 @@ SRC="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 DEST="${XDG_DATA_HOME:-$HOME/.local/share}/icons/Soplos"
 mkdir -p "$(dirname "$DEST")"
 if [ "$SRC" = "$DEST" ]; then
-  echo "Soplos Modern Icons ya está en $DEST"
+  echo "Soplos Icons ya está en $DEST"
 else
   if [ -e "$DEST" ]; then
     echo "El destino ya existe: $DEST" >&2
