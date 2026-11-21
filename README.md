@@ -1,70 +1,97 @@
-# Soplos Icons — tema SVG para KDE, GNOME y XFCE
+# Soplos Icons
 
-Tema de iconos vectoriales original inspirado visualmente en los colores Soplos Linux: 
-carpetas vectoriales recreadas con la forma y colores de la referencia (pestaña gris elevada, reborde amarillo, cuerpo naranja), 
-aplicaciones de volumen suave y pictogramas en grafito, blanco, naranja y rojo.
+![Version](https://img.shields.io/badge/version-development-blue)
+![License](https://img.shields.io/badge/license-not--specified-lightgrey)
+![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
+![Format](https://img.shields.io/badge/icons-SVG-orange)
+![Install](https://img.shields.io/badge/install-user--local-green)
 
-## Contenido
+An original SVG icon theme for Soplos Linux, using a warm amber and orange
+palette with red and graphite accents.
 
-- Iconos SVG editables (sin PNGs ni imágenes raster incrustadas).
-- Categorías Freedesktop: apps, places, devices, mimetypes, categories, actions, status y emblems.
-- Variantes simbólicas para barras de herramientas e indicadores.
-- Sin dependencias para los iconos propios. Iconos de aplicaciones no incluidos se completan mediante herencia de Kora Soplos, Adwaita, breeze o hicolor.
-- Alias con nombres reales de aplicaciones GTK y Qt, en forma de enlaces simbólicos.
+The repository contains one theme:
 
-## Instalación para el usuario (sin sudo)
+| Theme | Install folder | Inherits |
+|-------|----------------|----------|
+| Soplos Icons | `Soplos` | `kora-soplos-dark`, `Adwaita`, `breeze`, `hicolor` |
 
-Extrae la carpeta `Soplos` en:
+The inherited themes provide fallback icons that are not included here. They
+must be installed separately for complete fallback coverage.
 
-`~/.local/share/icons/Soplos/`
+## Preview
 
-También puedes ejecutar desde la carpeta raíz del archivo descomprimido:
+Dark background:
+
+![Soplos Icons preview on a dark background](screenshots/soplos-icons-dark.png)
+
+Light background:
+
+![Soplos Icons preview on a light background](screenshots/soplos-icons-light.png)
+
+The previews show examples of the application, folder, device and file-type
+icons, rendered from the theme's SVG files.
+
+## What is included
+
+- 1,019 scalable SVG icons across apps, places, devices, mimetypes, categories,
+  actions, status and emblems.
+- Freedesktop-compatible `index.theme` metadata.
+- A user-local installer and uninstaller; no `sudo` is required.
+- Support for KDE Plasma, GNOME, Xfce and other desktops that follow the
+  freedesktop icon theme specification.
+
+## Installation
+
+### User installation
+
+Clone or download this repository, then run the installer from its directory:
 
 ```bash
 ./install.sh
 ```
 
-Después, selecciona **Soplos Modern Icons** en:
+The theme is installed in `~/.local/share/icons/Soplos/` (or
+`$XDG_DATA_HOME/icons/Soplos/` when `XDG_DATA_HOME` is set).
 
-- **KDE Plasma:** Preferencias del sistema → Colores y temas → Iconos.
-- **GNOME:** Ajustes avanzados (GNOME Tweaks) → Apariencia → Iconos.
-- **XFCE:** Configuración → Apariencia → Iconos.
+Select **Soplos Icons** in your desktop's icon settings:
 
-Para cambio por terminal (si ya está instalado):
+- **KDE Plasma:** System Settings → Colors & Themes → Icons.
+- **GNOME:** GNOME Tweaks → Appearance → Icons.
+- **Xfce:** Settings → Appearance → Icons.
+
+You can also select the theme from a terminal:
 
 ```bash
 # GNOME
- gsettings set org.gnome.desktop.interface icon-theme 'Soplos'
-# XFCE
- xfconf-query -c xsettings -p /Net/IconThemeName -s 'Soplos'
+gsettings set org.gnome.desktop.interface icon-theme 'Soplos'
+
+# Xfce
+xfconf-query -c xsettings -p /Net/IconThemeName -s 'Soplos'
 ```
 
-En Plasma, conviene cambiarlo desde la interfaz de configuración para que se
-actualicen todos los componentes. Cierra y vuelve a abrir el gestor de archivos si
-no ves los nuevos iconos de inmediato.
-
-## Comprobación
+The installer does not overwrite an existing installation. To remove the
+current copy before reinstalling, run:
 
 ```bash
-# Vista del tema y directorios
-cat ~/.local/share/icons/Soplos/index.theme
-# GTK: opcional (se requiere gtk-update-icon-cache)
-gtk-update-icon-cache -f ~/.local/share/icons/Soplos
-# Referencias de iconos rotas (debe mostrar 0)
-find -L ~/.local/share/icons/Soplos -type l | wc -l
+./uninstall.sh
 ```
 
-## Cambiar los gráficos
+Then run `./install.sh` again. The same uninstaller removes the theme when you
+no longer need it.
 
-Cada archivo está en `scalable/` o `symbolic/` y es SVG editable con Inkscape.
-Las diferentes denominaciones de una misma aplicación pueden ser enlaces
-simbólicos que apuntan al mismo dibujo. Modifica el archivo de destino para
-modificar todas sus variantes simultáneamente.
+## Editing the icons
 
-## Licencia
+The artwork is in `scalable/`, organized by Freedesktop icon category. The
+included icons are SVG files and can be edited with Inkscape or another SVG
+editor.
 
-El tema no incorpora archivos de otros temas ni paquetes. 
-Las marcas y nombres de los programas, así como la identidad Soplos, pertenecen a sus respectivos titulares.
-La licencia de redistribución de la identidad Soplos debe decidirla Sergi.
+## Credits
 
-Tema producido para el proyecto Soplos Linux a partir de su referencia visual.
+The theme was created for the Soplos Linux project. Missing icons are resolved
+through the inherited Kora Soplos Dark, Adwaita, Breeze and hicolor themes;
+their artwork remains part of those respective projects.
+
+## License
+
+This repository does not currently include a license file. The redistribution
+terms for the Soplos artwork have not yet been specified.
