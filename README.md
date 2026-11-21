@@ -13,7 +13,7 @@ The repository contains one theme:
 
 | Theme | Install folder | Inherits |
 |-------|----------------|----------|
-| Soplos Icons | `Soplos` | `kora-soplos-dark`, `Adwaita`, `breeze`, `hicolor` |
+| Soplos Icons | `Soplos` | `Adwaita`, `breeze`, `hicolor` |
 
 The inherited themes provide fallback icons that are not included here. They
 must be installed separately for complete fallback coverage.
