@@ -1,135 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
-  <defs>
-    
-    <linearGradient id="backTabGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#52575e" />
-      <stop offset="100%" stop-color="#393d42" />
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Soplos Linux - folder-favorites">
+<defs>
+   <linearGradient id="gold" x1=".1" y1="0" x2=".92" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#ffde3a" /><stop offset=".37" stop-color="#ffb800" /><stop offset=".72" stop-color="#ff9100" /><stop offset="1" stop-color="#fa5b07" /></linearGradient>
+   <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffc313" /><stop offset=".48" stop-color="#ff8500" /><stop offset="1" stop-color="#f34c15" /></linearGradient>
+   <linearGradient id="fire" x1=".2" y1="0" x2=".7" y2="1"><stop stop-color="#ffe100" /><stop offset=".43" stop-color="#ff8b08" /><stop offset=".8" stop-color="#f84d25" /><stop offset="1" stop-color="#e82058" /></linearGradient>
+   <linearGradient id="red" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#ffb350" /><stop offset=".5" stop-color="#ff5e21" /><stop offset="1" stop-color="#e52544" /></linearGradient>
+   <linearGradient id="metal" x1="0" y1="0" x2=".4" y2="1"><stop stop-color="#fcfdff" /><stop offset=".38" stop-color="#e5e8ec" /><stop offset=".75" stop-color="#aeb4c0" /><stop offset="1" stop-color="#737b89" /></linearGradient>
+   <linearGradient id="light" x1=".1" y1="0" x2=".8" y2="1"><stop stop-color="#ffffff" /><stop offset=".48" stop-color="#e9ebef" /><stop offset="1" stop-color="#b5bac4" /></linearGradient>
+   <linearGradient id="dark" x1=".2" y1="0" x2=".7" y2="1"><stop stop-color="#858b96" /><stop offset=".23" stop-color="#4b525e" /><stop offset=".65" stop-color="#313744" /><stop offset="1" stop-color="#1f242e" /></linearGradient>
+   <linearGradient id="panel" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#444a55" /><stop offset="1" stop-color="#191d25" /></linearGradient>
+   <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b6bbc4" /><stop offset=".23" stop-color="#5e6571" /><stop offset="1" stop-color="#20242d" /></linearGradient>
+   <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7ed74d" /><stop offset="1" stop-color="#1f8b36" /></linearGradient>
+   <linearGradient id="screen" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#f7a42a" /><stop offset=".58" stop-color="#fa6427" /><stop offset="1" stop-color="#e9274c" /></linearGradient>
+   <linearGradient id="azure" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8895a9" /><stop offset=".6" stop-color="#464e61" /><stop offset="1" stop-color="#2a303c" /></linearGradient>
+   <filter id="shadow" x="-20%" y="-20%" width="150%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="2.2" /><feOffset dy="3" /><feComponentTransfer><feFuncA type="linear" slope=".28" /></feComponentTransfer><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+   <filter id="softshadow" x="-15%" y="-15%" width="140%" height="150%"><feGaussianBlur in="SourceAlpha" stdDeviation="1.5" /><feOffset dy="2" /><feComponentTransfer><feFuncA type="linear" slope=".25" /></feComponentTransfer><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+ 
+  <linearGradient id="sopGrey" x1=".2" y1="0" x2=".7" y2="1"><stop stop-color="#54575c" /><stop offset=".52" stop-color="#41444a" /><stop offset="1" stop-color="#25282e" /></linearGradient>
+  <linearGradient id="sopBackStroke" x1="0" y1="0" x2=".1" y2="1"><stop stop-color="#81858a" /><stop offset="1" stop-color="#32353a" /></linearGradient>
+  <linearGradient id="sopLip" x1=".1" y1="0" x2=".7" y2="1"><stop stop-color="#ffec41" /><stop offset=".42" stop-color="#ffd62a" /><stop offset="1" stop-color="#fab018" /></linearGradient>
+  <linearGradient id="sopFace" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fcc504" /><stop offset=".36" stop-color="#fcb105" /><stop offset=".7" stop-color="#f99a07" /><stop offset="1" stop-color="#f68a08" /></linearGradient>
+  <linearGradient id="sopPlainFace" x1=".07" y1=".08" x2=".87" y2="1"><stop stop-color="#fab410" /><stop offset=".53" stop-color="#f5a10e" /><stop offset="1" stop-color="#ee900c" /></linearGradient>
+  <linearGradient id="sopOrangeFacet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ee900c" /><stop offset=".46" stop-color="#fb7a08" /><stop offset="1" stop-color="#ef560c" /></linearGradient>
+  <linearGradient id="sopPhotoFacet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5a10e" /><stop offset=".5" stop-color="#ff810a" /><stop offset="1" stop-color="#f35a0a" /></linearGradient>
+  <linearGradient id="sopPaper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" /><stop offset=".45" stop-color="#fafafa" /><stop offset="1" stop-color="#d9dce0" /></linearGradient>
+  <linearGradient id="sopGlyphDark" x1=".1" y1="0" x2=".8" y2="1"><stop stop-color="#535a65" /><stop offset=".56" stop-color="#363e4b" /><stop offset="1" stop-color="#252c38" /></linearGradient>
+  <linearGradient id="sopImageTile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffa36d" /><stop offset=".55" stop-color="#ff735b" /><stop offset="1" stop-color="#f04d44" /></linearGradient>
+  <linearGradient id="sopOutline" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#ffe544" /><stop offset="1" stop-color="#f7810a" /></linearGradient>
+  <clipPath id="sopFrontClip"><path d="M7 52 C7 44 14 38 23 38 H66 Q70 38 74 34 Q78 32 84 32 H107 C116 32 121 39 121 49 V105 C121 113 115 117 107 117 H21 C13 117 7 112 7 103 Z" /></clipPath>
+  <filter id="sopBlurShadow" x="-20%" y="-20%" width="140%" height="160%"><feGaussianBlur stdDeviation="2" /></filter>
+</defs>
 
-    
-    <linearGradient id="folderBodyGrad" x1="15%" y1="0%" x2="85%" y2="100%">
-      <stop offset="0%" stop-color="#ffca18" />
-      <stop offset="45%" stop-color="#ff9800" />
-      <stop offset="100%" stop-color="#f25c05" />
-    </linearGradient>
-
-    
-    <linearGradient id="topRimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffe169" stop-opacity="0.95" />
-      <stop offset="50%" stop-color="#ffd034" stop-opacity="0.7" />
-      <stop offset="100%" stop-color="#ffae19" stop-opacity="0.85" />
-    </linearGradient>
-
-    
-    <linearGradient id="diagonalSheen" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04" />
-    </linearGradient>
-
-    
-    <linearGradient id="starGreySurfaceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#585e66" />
-      <stop offset="55%" stop-color="#3f444b" />
-      <stop offset="100%" stop-color="#282c31" />
-    </linearGradient>
-
-    
-    <linearGradient id="starGreyEdgeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#23272b" />
-      <stop offset="100%" stop-color="#141619" />
-    </linearGradient>
-
-    
-    <linearGradient id="starGreySheen" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
-    </linearGradient>
-
-    
-    <filter id="folderShadow" x="-15%" y="-15%" width="130%" height="135%">
-      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#1a1c1e" flood-opacity="0.28" />
-    </filter>
-
-    <filter id="starGreyDropShadow" x="-25%" y="-25%" width="150%" height="150%">
-      <feDropShadow dx="0" dy="3.2" stdDeviation="2.4" flood-color="#4a1400" flood-opacity="0.45" />
-    </filter>
-
-    
-    <clipPath id="folderClip">
-      <path d="M 8 46 Q 8 36 18 36 L 64 36 C 70 36, 73 28, 80 28 L 110 28 Q 120 28 120 38 L 120 106 Q 120 116 110 116 L 18 116 Q 8 116 8 106 Z" />
-    </clipPath>
-  </defs>
-
-  
-  <g filter="url(#folderShadow)">
-    
-    <path d="M 10 48 L 10 24 Q 10 14 20 14 L 48 14 C 54 14, 58 17, 62 22 L 72 34 L 10 48 Z" fill="url(#backTabGrad)" />
-    <path d="M 10.5 24 Q 10.5 14.5 20 14.5 L 48 14.5 C 53.8 14.5, 57.6 17.4, 61.5 22.2 L 70 32.5" fill="none" stroke="#6c727a" stroke-width="1" stroke-linecap="round" />
-
-    
-    <path d="M 8 46 Q 8 36 18 36 L 64 36 C 70 36, 73 28, 80 28 L 110 28 Q 120 28 120 38 L 120 106 Q 120 116 110 116 L 18 116 Q 8 116 8 106 Z" fill="url(#folderBodyGrad)" />
-
-    
-    <g clip-path="url(#folderClip)">
-      <polygon points="8,36 120,36 120,44 36,116 8,116" fill="url(#diagonalSheen)" />
-    </g>
-
-    
-    <path d="M 8.75 46 Q 8.75 36.75 18 36.75 L 64 36.75 C 70.3 36.75, 73.3 28.75, 80 28.75 L 110 28.75 Q 119.25 28.75 119.25 38" fill="none" stroke="url(#topRimGrad)" stroke-width="1.5" stroke-linecap="round" />
-  </g>
-
-  
-  <g id="favouriteStarGrey" filter="url(#starGreyDropShadow)">
-    
-    <path d="M 64 49.5
-             Q 66.5 49.5 67.8 52
-             L 75.2 67
-             L 91.7 69.4
-             Q 94.2 69.8 95 72.1
-             Q 95.8 74.4 94 76.2
-             L 82.1 87.8
-             L 84.9 104.2
-             Q 85.3 106.7 83.2 108.2
-             Q 81.1 109.7 78.9 108.5
-             L 64 100.7
-             L 49.1 108.5
-             Q 46.9 109.7 44.8 108.2
-             Q 42.7 106.7 43.1 104.2
-             L 45.9 87.8
-             L 34 76.2
-             Q 32.2 74.4 33 72.1
-             Q 33.8 69.8 36.3 69.4
-             L 52.8 67
-             L 60.2 52
-             Q 61.5 49.5 64 49.5 Z" fill="url(#starGreyEdgeGrad)" />
-
-    
-    <path d="M 64 46
-             Q 66.5 46 67.8 48.5
-             L 75.2 63.5
-             L 91.7 65.9
-             Q 94.2 66.3 95 68.6
-             Q 95.8 70.9 94 72.7
-             L 82.1 84.3
-             L 84.9 100.7
-             Q 85.3 103.2 83.2 104.7
-             Q 81.1 106.2 78.9 105
-             L 64 97.2
-             L 49.1 105
-             Q 46.9 106.2 44.8 104.7
-             Q 42.7 103.2 43.1 100.7
-             L 45.9 84.3
-             L 34 72.7
-             Q 32.2 70.9 33 68.6
-             Q 33.8 66.3 36.3 65.9
-             L 52.8 63.5
-             L 60.2 48.5
-             Q 61.5 46 64 46 Z" fill="url(#starGreySurfaceGrad)" stroke="#1e2124" stroke-width="1.3" stroke-linejoin="round" />
-
-    
-    <path d="M 64 47.2 L 74.2 64.2 L 91.5 66.7 L 78.5 79.3 L 64 65 L 49.5 79.3 L 36.5 66.7 L 53.8 64.2 Z" fill="url(#starGreySheen)" />
-
-    
-    <path d="M 62 48.2 L 54 64.3 L 36.8 66.8 M 66 48.2 L 74 64.3 L 91.2 66.8" fill="none" stroke="#767d87" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.85" />
-  </g>
+ 
+ <path d="M8 56 V26 C8 18 14 14 22 14 H48 C54 14 56 16 60 21 L70 33 C73 37 76 37 83 37 H107 C115 37 120 42 120 50 V106 H8 Z" fill="#000" opacity=".31" transform="translate(0 3)" filter="url(#sopBlurShadow)" />
+ <path d="M8.5 54 V26 C8.5 18.5 14 14.5 22 14.5 H48 C53.8 14.5 56 17.5 60 22 L70 33 C72.5 36.5 75.5 37 83 37 H108 C115 37 119.5 42 119.5 49 V104 H8.5Z" fill="url(#sopGrey)" stroke="url(#sopBackStroke)" stroke-width="1.15" />
+ <path d="M21 15.3 H48 C54 15.3 56 18 59 22.5 L69.5 34.5" fill="none" stroke="#9fa2a6" stroke-width=".8" opacity=".38" />
+ 
+ <path d="M7.5 56 V51 C7.5 41 14.5 36 24 36 H66 C70 36 72 32 76 29.8 C78 28.5 81 28 86 28 H107 C116.5 28 121.8 35 121.8 45 V104 H7.5Z" fill="url(#sopLip)" stroke="#ffd72d" stroke-width=".4" />
+<path d="M7 52 C7 44 14 38 23 38 H66 Q70 38 74 34 Q78 32 84 32 H107 C116 32 121 39 121 49 V105 C121 113 115 117 107 117 H21 C13 117 7 112 7 103 Z" fill="url(#sopFace)" stroke="url(#sopOutline)" stroke-width="1.15" /><g clip-path="url(#sopFrontClip)"><path d="M121 50 39 119 H124 Z" fill="url(#sopOrangeFacet)" opacity=".80" /><path d="M121 50 62 106 70 116 122 116Z" fill="#f66c09" opacity=".30" /></g><path d="M8 53 Q8 44 20 40" fill="none" stroke="#ffda45" stroke-width="1" opacity=".46" />
+          <path d="M8.5 105 Q9.5 115 21 116 H108 Q119 115 120 105" fill="none" stroke="#d65f07" stroke-width=".85" opacity=".36" /><g transform="translate(27.5 41) scale(.56)" filter="url(#softshadow)"><path d="M64 10 80 45 118 49 90 76 96 114 64 96 30 114 36 76 9 49 47 45Z" fill="url(#sopGlyphDark)" stroke="#4c5660" stroke-width=".9" /></g>
 </svg>
