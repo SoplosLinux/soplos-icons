@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:gtk="http://www.gtk.org/introspection/core/1.0" width="16" height="16" viewBox="0 0 16 16">
+ <path class="ColorScheme-Text" d="M1 3H14V6H16V10H14V13H1ZM3 5V11H6V5Z" fill="currentColor" fill-rule="evenodd"/>
+</svg>
