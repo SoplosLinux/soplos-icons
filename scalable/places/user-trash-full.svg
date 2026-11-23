@@ -1,33 +1,186 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
   <defs>
-    <linearGradient id="linear-gradient-1" x1="49" y1="14" x2="49" y2="27" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#4b525e"/>
-      <stop offset="1" stop-color="#222730"/>
+    
+    <clipPath id="binBodyClip">
+      <path d="M 29.5 40 L 98.5 40 L 90.5 104 C 89.8 110.2 84.5 115 78.2 115 L 49.8 115 C 43.5 115 38.2 110.2 37.5 104 Z" />
+    </clipPath>
+
+    
+    <clipPath id="aboveRimClip">
+      <rect x="20" y="0" width="88" height="40.5" />
+    </clipPath>
+
+    
+    <linearGradient id="bodyGlassGrad" x1="20%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" stop-opacity="0.76" />
+      <stop offset="55%" stop-color="#e2e8f0" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#cbd5e1" stop-opacity="0.74" />
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="30" y1="38" x2="107.272" y2="105.365" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.65" stop-color="#e6eaf0"/>
-      <stop offset="1" stop-color="#bcc3ce"/>
+
+    
+    <linearGradient id="innerRimGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#1e293b" />
     </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="24" y1="26" x2="24" y2="38" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f4f6f9"/>
-      <stop offset="0.55" stop-color="#dce1e9"/>
-      <stop offset="1" stop-color="#798290"/>
+
+    
+    <linearGradient id="sideHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.82" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
     </linearGradient>
-  </defs>
-  <title>gemini-svg (2).svg</title>
-  <g id="Layer_1" data-name="Layer 1">
-    <path d="M54 14 L74 14 C76.761 14 79 16.239 79 19 L79 27 L49 27 L49 19 C49 16.239 51.239 14 54 14 Z" fill="url(#linear-gradient-1)"/>
-    <path d="M30 38 L98 38 L91 110 C90.499 113.471 87.507 116.036 84 116 L44 116 C40.493 116.036 37.501 113.471 37 110 Z" fill="url(#linear-gradient-2)"/>
-    <path d="M28 26 L100 26 C102.209 26 104 27.791 104 30 L104 38 L24 38 L24 30 C24 27.791 25.791 26 28 26 Z" fill="url(#linear-gradient-3)"/>
-    <g>
-      <path d="M55 63 L60 55 C60.944 53.741 62.426 53 64 53 C65.574 53 67.056 53.741 68 55 L74 65" fill="none" stroke="#474e59" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <polyline points="66,64 74,66 76,58" fill="none" stroke="#474e59" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M79 74 L84 83 C85.136 84.515 85.319 86.542 84.472 88.236 C83.625 89.93 81.894 91 80 91 L68 91" fill="none" stroke="#474e59" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <polyline points="73,85 67,91 73,97" fill="none" stroke="#474e59" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M58 91 L48 91 C46.106 91 44.375 89.93 43.528 88.236 C42.681 86.542 42.864 84.515 44 83 L50 73" fill="none" stroke="#474e59" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <polyline points="43,75 50,72 53,80" fill="none" stroke="#474e59" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    
+    <linearGradient id="topShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748b" stop-opacity="0.34" />
+      <stop offset="100%" stop-color="#64748b" stop-opacity="0" />
+    </linearGradient>
+
+    
+    <linearGradient id="lidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="50%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+
+    
+    <linearGradient id="paperLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+
+    <linearGradient id="paperMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <linearGradient id="paperShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+
+    
+    <linearGradient id="recycleSoplosGrad" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#fec431" />
+      <stop offset="50%" stop-color="#ff7d2e" />
+      <stop offset="100%" stop-color="#ef5a33" />
+    </linearGradient>
+
+    
+    <filter id="softDrop" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.16" />
+    </filter>
+
+    
+    <g id="papers-stack" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round">
+      
+      <g id="paper-base-left">
+        <path d="M 38 103 C 37 95 43 89 51 90 C 57 88 63 92 63 100 C 63 106 57 109 49 109 C 43 109 39 106 38 103 Z" fill="url(#paperMid)" />
+        <path d="M 44 95 L 50 100 L 55 97 M 50 100 L 48 105" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
+      </g>
+
+      <g id="paper-base-right">
+        <path d="M 61 105 C 61 97 67 91 75 92 C 81 91 87 95 86 103 C 85 108 79 110 71 110 C 66 109 62 108 61 105 Z" fill="url(#paperLight)" />
+        <path d="M 68 98 L 74 103 L 79 99" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
+      </g>
+
+      
+      <g id="paper-mid-left">
+        <path d="M 35 88 C 34 80 40 74 48 75 C 54 73 61 77 61 84 C 61 90 55 93 47 93 C 41 93 36 91 35 88 Z" fill="url(#paperLight)" />
+        <path d="M 41 80 L 47 85 L 52 82 M 47 85 L 45 89" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
+      </g>
+
+      <g id="paper-mid-right">
+        <path d="M 64 90 C 63 82 69 76 77 77 C 83 75 90 79 89 87 C 88 92 82 95 74 95 C 68 95 65 93 64 90 Z" fill="url(#paperShadow)" />
+        <path d="M 71 83 L 77 88 L 82 84" fill="none" stroke="#64748b" stroke-width="0.9" stroke-linecap="round" />
+      </g>
+
+      
+      
+      <g id="paper-top-left">
+        <path d="M 35 76 C 33 65 34 37 39 32 C 44 28 52 29 56 35 C 60 44 60 68 57 76 C 51 79 39 79 35 76 Z" fill="url(#paperMid)" />
+        <path d="M 40 35 L 45 41 L 42 48 M 44 58 L 49 65 L 46 72" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
+      </g>
+
+      
+      <g id="paper-top-sheet">
+        <path d="M 55 81 C 54 69 62 32 67 24 L 87 28 C 86 41 82 72 78 81 C 72 84 60 83 55 81 Z" fill="url(#paperLight)" />
+        <path d="M 87 28 L 80 32 L 82 27 Z" fill="#cbd5e1" />
+        <line x1="69" y1="30" x2="78" y2="31.5" stroke="#cbd5e1" stroke-width="1.2" stroke-linecap="round" />
+        <line x1="67" y1="35" x2="80" y2="37" stroke="#cbd5e1" stroke-width="1.2" stroke-linecap="round" />
+        <path d="M 65 52 L 72 60 L 68 71" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
+      </g>
+
+      
+      <g id="paper-top-right">
+        <path d="M 73 83 C 72 72 73 40 78 35 C 84 32 90 36 91 46 C 92 59 91 76 88 83 C 83 85 76 84 73 83 Z" fill="url(#paperShadow)" />
+        <path d="M 78 40 L 84 47 L 80 56 M 82 62 L 86 73" fill="none" stroke="#64748b" stroke-width="0.9" stroke-linecap="round" />
+      </g>
     </g>
+  </defs>
+
+  
+  <ellipse cx="64" cy="117" rx="34" ry="4.5" fill="#0f172a" opacity="0.12" />
+
+  
+  <g transform="translate(24, 34) rotate(-17)">
+    
+    <path d="M 23 -10 L 23 -15 C 23 -19.5 26.5 -23 31 -23 L 49 -23 C 53.5 -23 57 -19.5 57 -15 L 57 -10" fill="none" stroke="url(#lidGrad)" stroke-width="5.5" stroke-linecap="round" />
+
+    
+    <rect x="-1" y="-11" width="82" height="11" rx="5.5" fill="url(#lidGrad)" />
+
+    
+    <rect x="2" y="-9.8" width="76" height="2" rx="1" fill="#ffffff" opacity="0.18" />
+
+    
+    <rect x="1" y="-1" width="78" height="3.2" rx="1.6" fill="url(#rimGrad)" />
+  </g>
+
+  
+  <ellipse cx="64" cy="40" rx="34.5" ry="5" fill="url(#innerRimGrad)" />
+
+  
+  <g clip-path="url(#binBodyClip)">
+    <rect x="28" y="40" width="72" height="76" fill="#94a3b8" opacity="0.16" />
+    <use href="#papers-stack" opacity="0.60" />
+
+    
+    <path d="M 29.5 40 L 98.5 40 L 90.5 104 C 89.8 110.2 84.5 115 78.2 115 L 49.8 115 C 43.5 115 38.2 110.2 37.5 104 Z" fill="url(#bodyGlassGrad)" />
+
+    
+    <path d="M 31.2 42.5 L 46 42.5 L 50 114 L 49.8 114 C 44 114 39.2 109.6 38.5 103.8 Z" fill="url(#sideHighlight)" />
+
+    
+    <polygon points="29.8,42 98.2,42 97.2,51 30.8,51" fill="url(#topShadow)" />
+  </g>
+
+  
+  <use href="#papers-stack" clip-path="url(#aboveRimClip)" />
+
+  
+  <path d="M 29.5 40 L 98.5 40 L 90.5 104 C 89.8 110.2 84.5 115 78.2 115 L 49.8 115 C 43.5 115 38.2 110.2 37.5 104 Z" fill="none" stroke="#cbd5e1" stroke-width="1" />
+
+  
+  <rect x="28" y="38.5" width="72" height="3.5" rx="1.75" fill="url(#rimGrad)" stroke="#cbd5e1" stroke-width="0.6" />
+
+  
+  <g filter="url(#softDrop)" fill="none" stroke="url(#recycleSoplosGrad)" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round">
+    
+    <path d="M 52 65 L 58.5 54.5 C 61 50.5 67 50.5 69.5 54.5 L 75 63.5" />
+    <polyline points="67.5,63 75.5,64.2 77,56.2" />
+
+    
+    <path d="M 79 73 L 85.5 83.5 C 88 87.5 85 92.5 80.2 92.5 L 69 92.5" />
+    <polyline points="73.5,86.5 68,92.5 73.5,98.5" />
+
+    
+    <path d="M 58 92.5 L 47.8 92.5 C 43 92.5 40 87.5 42.5 83.5 L 48.5 73.5" />
+    <polyline points="41.5,75.5 49,72.8 51.8,80.2" />
   </g>
 </svg>
