@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #252527; }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" fill="currentColor">
+    <path d="M 6.5 23.5 C 19.5 11.5 38.5 11.5 51.5 23.5" fill="none" stroke="currentColor" stroke-width="5.2" stroke-linecap="round" opacity="0.32" />
+    <path d="M 13.5 31 C 22.8 22.2 35.2 22.2 44.5 31" fill="none" stroke="currentColor" stroke-width="5.2" stroke-linecap="round" opacity="0.32" />
+    <path d="M 20.5 38.5 C 26 33.2 32 33.2 37.5 38.5" fill="none" stroke="currentColor" stroke-width="5.2" stroke-linecap="round" opacity="0.32" />
+    <circle cx="29" cy="46.5" r="4.2" opacity="1" />
+    <path d="M 42.5 39.5 L 42.5 35.5 C 42.5 32.2 45 29.5 48 29.5 C 51 29.5 53.5 32.2 53.5 35.5 L 53.5 39.5" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" />
+    <rect x="39.5" y="39.5" width="17" height="13.5" rx="2.5" />
+    <circle cx="48" cy="46" r="1.9" fill="#252527" opacity="0.35" />
+  </g>
+</svg>
