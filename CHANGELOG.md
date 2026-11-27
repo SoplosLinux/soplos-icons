@@ -2,6 +2,15 @@
 
 All notable changes to Soplos Icons are documented in this file.
 
+## [1.0.0-1] - 2026-11-27
+
+### Fixed
+
+- The package recommended the Adwaita, Breeze and hicolor icon themes, so
+  installing it also installed `breeze-icon-theme`. It now depends on and
+  recommends no other package. The theme still looks for the icons it does not
+  have in those themes, when they are already installed.
+
 ## [1.0.0] - 2026-11-27
 
 First release: an original SVG icon theme for Soplos Linux in amber, orange,

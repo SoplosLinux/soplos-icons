@@ -1,6 +1,6 @@
 # Soplos Icons
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.0--1-blue)
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green)
 ![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 ![Format](https://img.shields.io/badge/icons-SVG-orange)
@@ -48,11 +48,12 @@ On Soplos Linux and other Debian-based systems, the `soplos-icons` package
 installs the theme for every user in `/usr/share/icons/Soplos/`:
 
 ```bash
-sudo apt install ./soplos-icons_1.0.0_all.deb
+sudo apt install ./soplos-icons_1.0.0-1_all.deb
 ```
 
-It recommends the Adwaita, Breeze and hicolor themes, where the missing icons
-come from.
+It depends on no other package and installs nothing else. Icons it does not have
+are looked for in the Adwaita, Breeze and hicolor themes, when they are
+installed.
 
 ### User installation
 
