@@ -16,7 +16,7 @@ PanelDefault=32
 PanelSizes=16,22,24,32,48
 DialogDefault=48
 DialogSizes=16,22,24,32,48,64
-Directories=scalable/apps,scalable/places,scalable/devices,scalable/mimetypes,scalable/categories,scalable/actions,scalable/status,scalable/emblems,symbolic/apps,symbolic/places,symbolic/devices,symbolic/mimetypes,symbolic/categories,symbolic/actions,symbolic/status,symbolic/emblems
+Directories=scalable/apps,scalable/places,scalable/devices,scalable/mimetypes,scalable/categories,scalable/actions,scalable/status,scalable/emblems,symbolic/places,symbolic/actions,symbolic/status,symbolic/emblems
 
 [scalable/apps]
 Size=48
@@ -74,40 +74,12 @@ MinSize=16
 MaxSize=512
 Context=Emblems
 
-[symbolic/apps]
-Size=16
-Type=Scalable
-MinSize=8
-MaxSize=64
-Context=Applications
-
 [symbolic/places]
 Size=16
 Type=Scalable
 MinSize=8
 MaxSize=64
 Context=Places
-
-[symbolic/devices]
-Size=16
-Type=Scalable
-MinSize=8
-MaxSize=64
-Context=Devices
-
-[symbolic/mimetypes]
-Size=16
-Type=Scalable
-MinSize=8
-MaxSize=64
-Context=MimeTypes
-
-[symbolic/categories]
-Size=16
-Type=Scalable
-MinSize=8
-MaxSize=64
-Context=Categories
 
 [symbolic/actions]
 Size=16
@@ -129,4 +101,3 @@ Type=Scalable
 MinSize=8
 MaxSize=64
 Context=Emblems
-
