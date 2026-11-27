@@ -1,186 +1,352 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
   <defs>
-    
-    <clipPath id="binBodyClip">
-      <path d="M 29.5 40 L 98.5 40 L 90.5 104 C 89.8 110.2 84.5 115 78.2 115 L 49.8 115 C 43.5 115 38.2 110.2 37.5 104 Z" />
+    <linearGradient id="linear-gradient-1" x1="20" y1="93" x2="32.991" y2="106.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="26" y1="93" x2="32.434" y2="100.424" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="26.5" y1="98.5" x2="26.5" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="20" y1="94" x2="29.241" y2="101.295" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="6.5" y1="99" x2="23.472" y2="116.971" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="14.5" y1="99" x2="20.429" y2="105.918" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="14.5" y1="105" x2="22.305" y2="114.756" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="10.5" y1="105" x2="10.5" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="6.5" y1="103.5" x2="17.282" y2="111.001" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="39.27" y1="5.28" x2="43.071" y2="17.712" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="19.828" y1="23.773" x2="23.044" y2="34.292" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-12" x1="24.664" y1="32.751" x2="99.256" y2="9.946" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#94a3b8"/>
+      <stop offset="0.5" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-13" x1="29.5" y1="35" x2="29.5" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <clipPath id="clip-path-1">
+      <path d="M29.5 40 L98.5 40 L90.5 104 C89.8 110.2 84.5 115 78.2 115 L49.8 115 C43.5 115 38.2 110.2 37.5 104 Z"/>
     </clipPath>
-
-    
-    <clipPath id="aboveRimClip">
-      <rect x="20" y="0" width="88" height="40.5" />
+    <linearGradient id="linear-gradient-14" x1="37.891" y1="89.49" x2="56.796" y2="113.821" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-15" x1="61" y1="91.849" x2="78.235" y2="115.692" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-16" x1="34.891" y1="74.485" x2="52.364" y2="99.124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-17" x1="63.891" y1="76.49" x2="63.891" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-18" x1="34.034" y1="29.6" x2="73.685" y2="50.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-19" x1="54.914" y1="24" x2="104.398" y2="50.959" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-20" x1="72.652" y1="34.026" x2="72.652" y2="84.155" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-21" x1="43.3" y1="40" x2="93.579" y2="111.164" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8fafc" stop-opacity="0.76"/>
+      <stop offset="0.55" stop-color="#e2e8f0" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#cbd5e1" stop-opacity="0.74"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-22" x1="31.2" y1="42.5" x2="50" y2="42.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-23" x1="29.8" y1="42" x2="29.8" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#64748b" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#64748b" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path d="M20 0 L108 0 L108 40.5 L20 40.5 Z"/>
     </clipPath>
-
-    
-    <linearGradient id="bodyGlassGrad" x1="20%" y1="0%" x2="85%" y2="100%">
-      <stop offset="0%" stop-color="#f8fafc" stop-opacity="0.76" />
-      <stop offset="55%" stop-color="#e2e8f0" stop-opacity="0.65" />
-      <stop offset="100%" stop-color="#cbd5e1" stop-opacity="0.74" />
+    <linearGradient id="linear-gradient-24" x1="28" y1="38.5" x2="100" y2="38.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#94a3b8"/>
+      <stop offset="0.5" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#94a3b8"/>
     </linearGradient>
-
-    
-    <linearGradient id="innerRimGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#475569" />
-      <stop offset="100%" stop-color="#1e293b" />
+    <clipPath id="clip-path-3">
+      <path d="M32.52 42.1 L95.382 42.1 L95.382 107.9 L32.52 107.9 Z"/>
+    </clipPath>
+    <filter id="filter-1" filterUnits="userSpaceOnUse" x="28.4" y="38.4" width="71.102" height="73.2" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="2"/><feOffset dx="0" dy="2" result="shadow"/><feFlood flood-color="#0f172a" flood-opacity="0.16"/><feComposite in2="shadow" operator="in" result="paint"/><feMerge><feMergeNode in="paint"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="linear-gradient-25" x1="55.45" y1="53.525" x2="63.701" y2="67.582" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fec431"/>
+      <stop offset="0.5" stop-color="#ff7d2e"/>
+      <stop offset="1" stop-color="#ef5a33"/>
     </linearGradient>
-
-    
-    <linearGradient id="sideHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.82" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    <linearGradient id="linear-gradient-26" x1="68.925" y1="57.4" x2="74.443" y2="63.953" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fec431"/>
+      <stop offset="0.5" stop-color="#ff7d2e"/>
+      <stop offset="1" stop-color="#ef5a33"/>
     </linearGradient>
-
-    
-    <linearGradient id="topShadow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#64748b" stop-opacity="0.34" />
-      <stop offset="100%" stop-color="#64748b" stop-opacity="0" />
+    <linearGradient id="linear-gradient-27" x1="71.61" y1="75.925" x2="85.172" y2="88.028" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fec431"/>
+      <stop offset="0.5" stop-color="#ff7d2e"/>
+      <stop offset="1" stop-color="#ef5a33"/>
     </linearGradient>
-
-    
-    <linearGradient id="lidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#334155" />
-      <stop offset="100%" stop-color="#0f172a" />
+    <linearGradient id="linear-gradient-28" x1="68.825" y1="88.3" x2="75.188" y2="91.216" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fec431"/>
+      <stop offset="0.5" stop-color="#ff7d2e"/>
+      <stop offset="1" stop-color="#ef5a33"/>
     </linearGradient>
-
-    
-    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#94a3b8" />
-      <stop offset="50%" stop-color="#e2e8f0" />
-      <stop offset="100%" stop-color="#94a3b8" />
+    <linearGradient id="linear-gradient-29" x1="44.059" y1="76.35" x2="57.216" y2="87.708" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fec431"/>
+      <stop offset="0.5" stop-color="#ff7d2e"/>
+      <stop offset="1" stop-color="#ef5a33"/>
     </linearGradient>
-
-    
-    <linearGradient id="paperLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#e2e8f0" />
+    <linearGradient id="linear-gradient-30" x1="43.045" y1="73.91" x2="47.954" y2="80.743" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fec431"/>
+      <stop offset="0.5" stop-color="#ff7d2e"/>
+      <stop offset="1" stop-color="#ef5a33"/>
     </linearGradient>
-
-    <linearGradient id="paperMid" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f1f5f9" />
-      <stop offset="100%" stop-color="#cbd5e1" />
+    <linearGradient id="linear-gradient-31" x1="76.5" y1="104.7" x2="76.5" y2="117.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
     </linearGradient>
-
-    <linearGradient id="paperShadow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#cbd5e1" />
-      <stop offset="100%" stop-color="#94a3b8" />
+    <linearGradient id="linear-gradient-32" x1="83" y1="104.7" x2="88.792" y2="110.192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
     </linearGradient>
-
-    
-    <linearGradient id="recycleSoplosGrad" x1="15%" y1="15%" x2="85%" y2="85%">
-      <stop offset="0%" stop-color="#fec431" />
-      <stop offset="50%" stop-color="#ff7d2e" />
-      <stop offset="100%" stop-color="#ef5a33" />
+    <linearGradient id="linear-gradient-33" x1="84" y1="110.5" x2="89.424" y2="116.91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
     </linearGradient>
-
-    
-    <filter id="softDrop" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.16" />
-    </filter>
-
-    
-    <g id="papers-stack" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round">
-      
-      <g id="paper-base-left">
-        <path d="M 38 103 C 37 95 43 89 51 90 C 57 88 63 92 63 100 C 63 106 57 109 49 109 C 43 109 39 106 38 103 Z" fill="url(#paperMid)" />
-        <path d="M 44 95 L 50 100 L 55 97 M 50 100 L 48 105" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
+    <linearGradient id="linear-gradient-34" x1="76.5" y1="110.5" x2="76.5" y2="117.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-35" x1="87.7" y1="99.2" x2="105.698" y2="117.497" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-36" x1="96" y1="99.2" x2="101.294" y2="108.024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-37" x1="101" y1="105.2" x2="107.354" y2="110.013" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-38" x1="101" y1="109.5" x2="101" y2="116.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-39" x1="95.7" y1="109.5" x2="103.166" y2="115.318" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-40" x1="90.3" y1="109.2" x2="90.3" y2="117.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-41" x1="87.7" y1="103.8" x2="93.654" y2="109.059" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-42" x1="105" y1="96.2" x2="119.784" y2="111.683" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-43" x1="111.5" y1="96.2" x2="116.796" y2="101.696" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-44" x1="114.5" y1="100" x2="120.5" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-45" x1="110" y1="105" x2="110" y2="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-46" x1="105" y1="101.5" x2="110.169" y2="110.546" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <title>gemini-svg (1).svg</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <ellipse cx="64" cy="117" rx="34" ry="4.5" fill="#0f172a" opacity="0.12"/>
+    <ellipse cx="26" cy="109.5" rx="7.5" ry="2" fill="#0f172a" opacity="0.1"/>
+    <ellipse cx="14.5" cy="116.5" rx="9" ry="2.3" fill="#0f172a" opacity="0.11"/>
+    <ellipse cx="83" cy="119.5" rx="7.5" ry="2" fill="#0f172a" opacity="0.1"/>
+    <ellipse cx="97" cy="118.5" rx="9.5" ry="2.4" fill="#0f172a" opacity="0.12"/>
+    <ellipse cx="112" cy="114" rx="8" ry="2.1" fill="#0f172a" opacity="0.11"/>
+    <g id="ball-back-left">
+      <polygon points="26,93 31.5,94.5 33.5,99.5 32,104.5 26.5,106 21.5,103.5 20,98.5 22.5,94" fill="url(#linear-gradient-1)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="26,93 27.5,98.5 33.5,99.5 31.5,94.5" fill="url(#linear-gradient-2)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="27.5,98.5 32,104.5 26.5,106" fill="url(#linear-gradient-3)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="22.5,94 27.5,98.5 21.5,103.5 20,98.5" fill="url(#linear-gradient-4)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="26,93 23.5,98.5 27.5,98.5 26.5,106" fill="none" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="ball-front-left">
+      <polygon points="15.5,99 21.5,101 24.5,106.5 23,113 17.5,116 10.5,115 6.5,110 7,103.5 11,100" fill="url(#linear-gradient-5)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="15.5,99 14.5,105 21.5,101" fill="url(#linear-gradient-6)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="14.5,105 24.5,106.5 23,113 18.5,109.5" fill="url(#linear-gradient-7)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="14.5,105 18.5,109.5 17.5,116 10.5,115" fill="url(#linear-gradient-8)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="7,103.5 14.5,105 10.5,115 6.5,110" fill="url(#linear-gradient-9)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M11 100 L14.5 105 M18.5 109.5 L24.5 106.5" fill="none" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <path d="M43.071 17.712 L41.609 12.931 C40.294 8.628 42.618 4.257 46.921 2.941 L64.134 -2.321 C68.438 -3.637 72.808 -1.313 74.124 2.99 L75.586 7.772" fill="none" stroke="url(#linear-gradient-10)" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M25.087 22.165 L92.985 1.407 C95.89 0.518 98.965 2.153 99.853 5.058 L99.853 5.058 C100.741 7.963 99.106 11.038 96.201 11.926 L28.303 32.684 C25.399 33.572 22.324 31.938 21.436 29.033 L21.436 29.033 C20.548 26.128 22.182 23.053 25.087 22.165 Z" fill="url(#linear-gradient-11)"/>
+      <path d="M24.004 23.751 L94.77 2.116 C95.298 1.954 95.857 2.251 96.019 2.78 L96.019 2.78 C96.18 3.308 95.883 3.867 95.355 4.028 L24.588 25.664 C24.06 25.825 23.501 25.528 23.34 25 L23.34 25 C23.178 24.472 23.476 23.913 24.004 23.751 Z" fill="#ffffff" opacity="0.18"/>
+      <path d="M26.194 32.284 L97.726 10.414 C98.571 10.156 99.465 10.631 99.723 11.476 L99.723 11.476 C99.982 12.321 99.506 13.216 98.661 13.474 L27.13 35.344 C26.285 35.602 25.39 35.126 25.132 34.281 L25.132 34.281 C24.873 33.436 25.349 32.542 26.194 32.284 Z" fill="url(#linear-gradient-12)"/>
+    </g>
+    <ellipse cx="64" cy="40" rx="34.5" ry="5" fill="url(#linear-gradient-13)"/>
+    <g clip-path="url(#clip-path-1)">
+      <rect x="28" y="40" width="72" height="76" fill="#94a3b8" opacity="0.16"/>
+      <g opacity="0.6">
+        <g>
+          <path d="M38 103 C37 95 43 89 51 90 C57 88 63 92 63 100 C63 106 57 109 49 109 C43 109 39 106 38 103 Z" fill="url(#linear-gradient-14)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <path d="M44 95 L50 100 L55 97 M50 100 L48 105" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M61 105 C61 97 67 91 75 92 C81 91 87 95 86 103 C85 108 79 110 71 110 C66 109 62 108 61 105 Z" fill="url(#linear-gradient-15)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <polyline points="68,98 74,103 79,99" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M35 88 C34 80 40 74 48 75 C54 73 61 77 61 84 C61 90 55 93 47 93 C41 93 36 91 35 88 Z" fill="url(#linear-gradient-16)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <path d="M41 80 L47 85 L52 82 M47 85 L45 89" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M64 90 C63 82 69 76 77 77 C83 75 90 79 89 87 C88 92 82 95 74 95 C68 95 65 93 64 90 Z" fill="url(#linear-gradient-17)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <polyline points="71,83 77,88 82,84" fill="none" stroke="#64748b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M35 76 C33 65 34 37 39 32 C44 28 52 29 56 35 C60 44 60 68 57 76 C51 79 39 79 35 76 Z" fill="url(#linear-gradient-18)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <path d="M40 35 L45 41 L42 48 M44 58 L49 65 L46 72" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M55 81 C54 69 62 32 67 24 L87 28 C86 41 82 72 78 81 C72 84 60 83 55 81 Z" fill="url(#linear-gradient-19)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <polygon points="87,28 80,32 82,27" fill="#cbd5e1" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <line x1="69" y1="30" x2="78" y2="31.5" fill="#000000" stroke="#cbd5e1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="67" y1="35" x2="80" y2="37" fill="#000000" stroke="#cbd5e1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="65,52 72,60 68,71" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M73 83 C72 72 73 40 78 35 C84 32 90 36 91 46 C92 59 91 76 88 83 C83 85 76 84 73 83 Z" fill="url(#linear-gradient-20)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <path d="M78 40 L84 47 L80 56 M82 62 L86 73" fill="none" stroke="#64748b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
       </g>
-
-      <g id="paper-base-right">
-        <path d="M 61 105 C 61 97 67 91 75 92 C 81 91 87 95 86 103 C 85 108 79 110 71 110 C 66 109 62 108 61 105 Z" fill="url(#paperLight)" />
-        <path d="M 68 98 L 74 103 L 79 99" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
-      </g>
-
-      
-      <g id="paper-mid-left">
-        <path d="M 35 88 C 34 80 40 74 48 75 C 54 73 61 77 61 84 C 61 90 55 93 47 93 C 41 93 36 91 35 88 Z" fill="url(#paperLight)" />
-        <path d="M 41 80 L 47 85 L 52 82 M 47 85 L 45 89" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
-      </g>
-
-      <g id="paper-mid-right">
-        <path d="M 64 90 C 63 82 69 76 77 77 C 83 75 90 79 89 87 C 88 92 82 95 74 95 C 68 95 65 93 64 90 Z" fill="url(#paperShadow)" />
-        <path d="M 71 83 L 77 88 L 82 84" fill="none" stroke="#64748b" stroke-width="0.9" stroke-linecap="round" />
-      </g>
-
-      
-      
-      <g id="paper-top-left">
-        <path d="M 35 76 C 33 65 34 37 39 32 C 44 28 52 29 56 35 C 60 44 60 68 57 76 C 51 79 39 79 35 76 Z" fill="url(#paperMid)" />
-        <path d="M 40 35 L 45 41 L 42 48 M 44 58 L 49 65 L 46 72" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
-      </g>
-
-      
-      <g id="paper-top-sheet">
-        <path d="M 55 81 C 54 69 62 32 67 24 L 87 28 C 86 41 82 72 78 81 C 72 84 60 83 55 81 Z" fill="url(#paperLight)" />
-        <path d="M 87 28 L 80 32 L 82 27 Z" fill="#cbd5e1" />
-        <line x1="69" y1="30" x2="78" y2="31.5" stroke="#cbd5e1" stroke-width="1.2" stroke-linecap="round" />
-        <line x1="67" y1="35" x2="80" y2="37" stroke="#cbd5e1" stroke-width="1.2" stroke-linecap="round" />
-        <path d="M 65 52 L 72 60 L 68 71" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" />
-      </g>
-
-      
-      <g id="paper-top-right">
-        <path d="M 73 83 C 72 72 73 40 78 35 C 84 32 90 36 91 46 C 92 59 91 76 88 83 C 83 85 76 84 73 83 Z" fill="url(#paperShadow)" />
-        <path d="M 78 40 L 84 47 L 80 56 M 82 62 L 86 73" fill="none" stroke="#64748b" stroke-width="0.9" stroke-linecap="round" />
+      <path d="M29.5 40 L98.5 40 L90.5 104 C89.8 110.2 84.5 115 78.2 115 L49.8 115 C43.5 115 38.2 110.2 37.5 104 Z" fill="url(#linear-gradient-21)"/>
+      <path d="M31.2 42.5 L46 42.5 L50 114 L49.8 114 C44 114 39.2 109.6 38.5 103.8 Z" fill="url(#linear-gradient-22)"/>
+      <polygon points="29.8,42 98.2,42 97.2,51 30.8,51" fill="url(#linear-gradient-23)"/>
+    </g>
+    <g clip-path="url(#clip-path-2)">
+      <g>
+        <g>
+          <path d="M38 103 C37 95 43 89 51 90 C57 88 63 92 63 100 C63 106 57 109 49 109 C43 109 39 106 38 103 Z" fill="url(#linear-gradient-14)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <path d="M44 95 L50 100 L55 97 M50 100 L48 105" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M61 105 C61 97 67 91 75 92 C81 91 87 95 86 103 C85 108 79 110 71 110 C66 109 62 108 61 105 Z" fill="url(#linear-gradient-15)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <polyline points="68,98 74,103 79,99" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M35 88 C34 80 40 74 48 75 C54 73 61 77 61 84 C61 90 55 93 47 93 C41 93 36 91 35 88 Z" fill="url(#linear-gradient-16)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <path d="M41 80 L47 85 L52 82 M47 85 L45 89" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M64 90 C63 82 69 76 77 77 C83 75 90 79 89 87 C88 92 82 95 74 95 C68 95 65 93 64 90 Z" fill="url(#linear-gradient-17)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <polyline points="71,83 77,88 82,84" fill="none" stroke="#64748b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M35 76 C33 65 34 37 39 32 C44 28 52 29 56 35 C60 44 60 68 57 76 C51 79 39 79 35 76 Z" fill="url(#linear-gradient-18)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <path d="M40 35 L45 41 L42 48 M44 58 L49 65 L46 72" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M55 81 C54 69 62 32 67 24 L87 28 C86 41 82 72 78 81 C72 84 60 83 55 81 Z" fill="url(#linear-gradient-19)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <polygon points="87,28 80,32 82,27" fill="#cbd5e1" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <line x1="69" y1="30" x2="78" y2="31.5" fill="#000000" stroke="#cbd5e1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="67" y1="35" x2="80" y2="37" fill="#000000" stroke="#cbd5e1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="65,52 72,60 68,71" fill="none" stroke="#94a3b8" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g>
+          <path d="M73 83 C72 72 73 40 78 35 C84 32 90 36 91 46 C92 59 91 76 88 83 C83 85 76 84 73 83 Z" fill="url(#linear-gradient-20)" stroke="#94a3b8" stroke-width="0.9" stroke-linejoin="round"/>
+          <path d="M78 40 L84 47 L80 56 M82 62 L86 73" fill="none" stroke="#64748b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
       </g>
     </g>
-  </defs>
-
-  
-  <ellipse cx="64" cy="117" rx="34" ry="4.5" fill="#0f172a" opacity="0.12" />
-
-  
-  <g transform="translate(24, 34) rotate(-17)">
-    
-    <path d="M 23 -10 L 23 -15 C 23 -19.5 26.5 -23 31 -23 L 49 -23 C 53.5 -23 57 -19.5 57 -15 L 57 -10" fill="none" stroke="url(#lidGrad)" stroke-width="5.5" stroke-linecap="round" />
-
-    
-    <rect x="-1" y="-11" width="82" height="11" rx="5.5" fill="url(#lidGrad)" />
-
-    
-    <rect x="2" y="-9.8" width="76" height="2" rx="1" fill="#ffffff" opacity="0.18" />
-
-    
-    <rect x="1" y="-1" width="78" height="3.2" rx="1.6" fill="url(#rimGrad)" />
-  </g>
-
-  
-  <ellipse cx="64" cy="40" rx="34.5" ry="5" fill="url(#innerRimGrad)" />
-
-  
-  <g clip-path="url(#binBodyClip)">
-    <rect x="28" y="40" width="72" height="76" fill="#94a3b8" opacity="0.16" />
-    <use href="#papers-stack" opacity="0.60" />
-
-    
-    <path d="M 29.5 40 L 98.5 40 L 90.5 104 C 89.8 110.2 84.5 115 78.2 115 L 49.8 115 C 43.5 115 38.2 110.2 37.5 104 Z" fill="url(#bodyGlassGrad)" />
-
-    
-    <path d="M 31.2 42.5 L 46 42.5 L 50 114 L 49.8 114 C 44 114 39.2 109.6 38.5 103.8 Z" fill="url(#sideHighlight)" />
-
-    
-    <polygon points="29.8,42 98.2,42 97.2,51 30.8,51" fill="url(#topShadow)" />
-  </g>
-
-  
-  <use href="#papers-stack" clip-path="url(#aboveRimClip)" />
-
-  
-  <path d="M 29.5 40 L 98.5 40 L 90.5 104 C 89.8 110.2 84.5 115 78.2 115 L 49.8 115 C 43.5 115 38.2 110.2 37.5 104 Z" fill="none" stroke="#cbd5e1" stroke-width="1" />
-
-  
-  <rect x="28" y="38.5" width="72" height="3.5" rx="1.75" fill="url(#rimGrad)" stroke="#cbd5e1" stroke-width="0.6" />
-
-  
-  <g filter="url(#softDrop)" fill="none" stroke="url(#recycleSoplosGrad)" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round">
-    
-    <path d="M 52 65 L 58.5 54.5 C 61 50.5 67 50.5 69.5 54.5 L 75 63.5" />
-    <polyline points="67.5,63 75.5,64.2 77,56.2" />
-
-    
-    <path d="M 79 73 L 85.5 83.5 C 88 87.5 85 92.5 80.2 92.5 L 69 92.5" />
-    <polyline points="73.5,86.5 68,92.5 73.5,98.5" />
-
-    
-    <path d="M 58 92.5 L 47.8 92.5 C 43 92.5 40 87.5 42.5 83.5 L 48.5 73.5" />
-    <polyline points="41.5,75.5 49,72.8 51.8,80.2" />
+    <path d="M29.5 40 L98.5 40 L90.5 104 C89.8 110.2 84.5 115 78.2 115 L49.8 115 C43.5 115 38.2 110.2 37.5 104 Z" fill="none" stroke="#cbd5e1"/>
+    <path d="M29.75 38.5 L98.25 38.5 C99.216 38.5 100 39.284 100 40.25 L100 40.25 C100 41.216 99.216 42 98.25 42 L29.75 42 C28.784 42 28 41.216 28 40.25 L28 40.25 C28 39.284 28.784 38.5 29.75 38.5 Z" fill="url(#linear-gradient-24)" stroke="#cbd5e1" stroke-width="0.6"/>
+    <g clip-path="url(#clip-path-3)">
+      <g filter="url(#filter-1)">
+        <g>
+          <path d="M52 65 L58.5 54.5 C61 50.5 67 50.5 69.5 54.5 L75 63.5" fill="none" stroke="url(#linear-gradient-25)" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="67.5,63 75.5,64.2 77,56.2" fill="none" stroke="url(#linear-gradient-26)" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M79 73 L85.5 83.5 C88 87.5 85 92.5 80.2 92.5 L69 92.5" fill="none" stroke="url(#linear-gradient-27)" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="73.5,86.5 68,92.5 73.5,98.5" fill="none" stroke="url(#linear-gradient-28)" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M58 92.5 L47.8 92.5 C43 92.5 40 87.5 42.5 83.5 L48.5 73.5" fill="none" stroke="url(#linear-gradient-29)" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="41.5,75.5 49,72.8 51.8,80.2" fill="none" stroke="url(#linear-gradient-30)" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g>
+    <g id="ball-front-center-right">
+      <polygon points="83,104.7 88.5,106.3 90.5,111 89,116 83.5,117.7 78,115.5 76.5,110.5 78.5,106" fill="url(#linear-gradient-31)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="83,104.7 88.5,106.3 85,110.5" fill="url(#linear-gradient-32)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="85,110.5 90.5,111 89,116 84,114" fill="url(#linear-gradient-33)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="76.5,110.5 85,110.5 84,114 83.5,117.7 78,115.5" fill="url(#linear-gradient-34)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="78.5,106 85,110.5 83.5,117.7" fill="none" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="ball-front-right">
+      <polygon points="96,99.2 102,100.5 106,105.2 105.7,111.8 101.7,116.2 95.7,117.2 90.3,114.8 87.7,109.8 88.7,103.8 92.3,100.2" fill="url(#linear-gradient-35)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="96,99.2 98.7,104.8 106,105.2 102,100.5" fill="url(#linear-gradient-36)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="106,105.2 101,109.5 105.7,111.8" fill="url(#linear-gradient-37)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="101,109.5 101.7,116.2 105.7,111.8" fill="url(#linear-gradient-38)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="101,109.5 95.7,117.2 101.7,116.2" fill="url(#linear-gradient-39)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="93,109.2 95.7,117.2 90.3,114.8" fill="url(#linear-gradient-40)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="88.7,103.8 93,109.2 87.7,109.8" fill="url(#linear-gradient-41)" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M96 99.2 L93 104.8 L88.7 103.8 M93 104.8 L98.7 104.8 L101 109.5 L93 109.2 L95.7 117.2" fill="none" stroke="#64748b" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="ball-far-right">
+      <polygon points="111.5,96.5 117,96.2 120.5,100 120,106 116,110.5 110,111 105.5,107.5 105,101.5 108,97.5" fill="url(#linear-gradient-42)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="111.5,96.5 117,96.2 114.5,101.5" fill="url(#linear-gradient-43)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="114.5,101.5 120.5,100 120,106 115.5,105" fill="url(#linear-gradient-44)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="115.5,105 116,110.5 110,111 111,106" fill="url(#linear-gradient-45)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="105,101.5 111,106 114.5,101.5 115.5,105 111,106 105.5,107.5" fill="url(#linear-gradient-46)" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M108 97.5 L114.5 101.5 M111 106 L116 110.5" fill="none" stroke="#64748b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
   </g>
 </svg>

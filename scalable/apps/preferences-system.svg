@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    
+    <linearGradient id="gearGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e4e7eb" />
+      <stop offset="50%" stop-color="#c3c8cf" />
+      <stop offset="100%" stop-color="#9ca3af" />
+    </linearGradient>
+
+    
+    <linearGradient id="soplosOrange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffb800" />
+      <stop offset="55%" stop-color="#ff7a00" />
+      <stop offset="100%" stop-color="#f24e1e" />
+    </linearGradient>
+
+    
+    <linearGradient id="darkSlot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c3036" />
+      <stop offset="100%" stop-color="#3f444d" />
+    </linearGradient>
+
+    
+    <linearGradient id="whiteKnob" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d1d5db" />
+    </linearGradient>
+
+    
+    <filter id="dropShadow" x="-15%" y="-15%" width="135%" height="135%">
+      <feDropShadow dx="0" dy="1.8" stdDeviation="1.4" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+
+    
+    <filter id="knobShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.9" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  
+  <g filter="url(#dropShadow)">
+    
+    <path fill="url(#gearGrad)" d="
+      M 27.6 5.5
+      L 34.4 5.5
+      L 35.6 10.6
+      A 20.5 20.5 0 0 1 41.3 13.0
+      L 45.8 10.2
+      L 50.6 15.0
+      L 47.8 19.5
+      A 20.5 20.5 0 0 1 50.2 25.2
+      L 55.3 26.4
+      L 55.3 33.2
+      L 50.2 34.4
+      A 20.5 20.5 0 0 1 47.8 40.1
+      L 50.6 44.6
+      L 45.8 49.4
+      L 41.3 46.6
+      A 20.5 20.5 0 0 1 35.6 49.0
+      L 34.4 54.1
+      L 27.6 54.1
+      L 26.4 49.0
+      A 20.5 20.5 0 0 1 20.7 46.6
+      L 16.2 49.4
+      L 11.4 44.6
+      L 14.2 40.1
+      A 20.5 20.5 0 0 1 11.8 34.4
+      L 6.7 33.2
+      L 6.7 26.4
+      L 11.8 25.2
+      A 20.5 20.5 0 0 1 14.2 19.5
+      L 11.4 15.0
+      L 16.2 10.2
+      L 20.7 13.0
+      A 20.5 20.5 0 0 1 26.4 10.6
+      Z" />
+
+    
+    <path fill="#ffffff" fill-opacity="0.35" d="
+      M 27.6 5.5 L 34.4 5.5 L 34.6 6.5 L 27.4 6.5 Z
+      M 16.2 10.2 L 20.7 13.0 L 20.2 13.8 L 15.7 11.0 Z
+      M 45.8 10.2 L 50.6 15.0 L 49.9 15.7 L 45.1 10.9 Z" />
+
+    
+    <circle cx="31" cy="29.8" r="13.2" fill="url(#soplosOrange)" />
+
+    
+    <circle cx="31" cy="29.8" r="7.4" fill="#23272d" />
+  </g>
+
+  
+  <g filter="url(#dropShadow)">
+    
+    <rect x="30" y="26.5" width="28" height="6.2" rx="3.1" fill="#b4bac2" />
+    <rect x="31.2" y="27.7" width="25.6" height="3.8" rx="1.9" fill="url(#darkSlot)" />
+
+    
+    <rect x="30" y="35.3" width="28" height="6.2" rx="3.1" fill="#b4bac2" />
+    <rect x="31.2" y="36.5" width="25.6" height="3.8" rx="1.9" fill="url(#darkSlot)" />
+
+    
+    <rect x="30" y="44.1" width="28" height="6.2" rx="3.1" fill="#b4bac2" />
+    <rect x="31.2" y="45.3" width="25.6" height="3.8" rx="1.9" fill="url(#darkSlot)" />
+  </g>
+
+  
+  <g filter="url(#knobShadow)">
+    
+    <circle cx="49.5" cy="29.6" r="4.1" fill="url(#soplosOrange)" />
+    <path d="M 46.2 28.2 A 4.1 4.1 0 0 1 52.8 28.2 A 4.1 3.5 0 0 0 46.2 28.2 Z" fill="#ffffff" fill-opacity="0.35" />
+
+    
+    <circle cx="50.5" cy="38.4" r="4.1" fill="url(#whiteKnob)" />
+    <path d="M 47.2 37.0 A 4.1 4.1 0 0 1 53.8 37.0 A 4.1 3.5 0 0 0 47.2 37.0 Z" fill="#ffffff" fill-opacity="0.7" />
+
+    
+    <circle cx="41.5" cy="47.2" r="4.1" fill="url(#soplosOrange)" />
+    <path d="M 38.2 45.8 A 4.1 4.1 0 0 1 44.8 45.8 A 4.1 3.5 0 0 0 38.2 45.8 Z" fill="#ffffff" fill-opacity="0.35" />
+  </g>
+</svg>

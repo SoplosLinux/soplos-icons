@@ -2,6 +2,17 @@
 
 All notable changes to Soplos Icons are documented in this file.
 
+## [1.0.0-2] - Not yet published
+
+### Fixed
+
+- empty folders with orange corner
+- Trash full with paper around it
+
+### Added
+
+- systemsettings and preferences-system icons
+
 ## [1.0.0-1] - 2026-11-27
 
 ### Fixed
