@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+# The icon cache is generated in postinst, so it is not owned by the package
+if [ "$1" = "remove" ] || [ "$1" = "purge" ]; then
+    rm -f /usr/share/icons/Soplos/icon-theme.cache
+    rmdir --ignore-fail-on-non-empty /usr/share/icons/Soplos 2> /dev/null || true
+fi
+
+exit 0

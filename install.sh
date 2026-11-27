@@ -4,17 +4,19 @@ SRC="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 DEST="${XDG_DATA_HOME:-$HOME/.local/share}/icons/Soplos"
 mkdir -p "$(dirname "$DEST")"
 if [ "$SRC" = "$DEST" ]; then
-  echo "Soplos Icons ya está en $DEST"
+  echo "Soplos Icons is already in $DEST"
 else
   if [ -e "$DEST" ]; then
-    echo "El destino ya existe: $DEST" >&2
-    echo "Elimínalo o muévelo antes de instalar una nueva versión." >&2
+    echo "The destination already exists: $DEST" >&2
+    echo "Remove it or move it before installing a new version." >&2
     exit 1
   fi
-  cp -a "$SRC" "$DEST"
-  echo "Instalado en: $DEST"
+  # Only the theme: not the git history, the screenshots or these scripts.
+  mkdir -p "$DEST"
+  cp -a "$SRC/index.theme" "$SRC/scalable" "$SRC/symbolic" "$DEST/"
+  echo "Installed in: $DEST"
 fi
 if command -v gtk-update-icon-cache >/dev/null 2>&1; then
   gtk-update-icon-cache -f "$DEST" >/dev/null 2>&1 || true
 fi
-echo "Selecciona 'Soplos Icons' en los ajustes de iconos de KDE, GNOME o XFCE."
+echo "Select 'Soplos Icons' in the icon settings of KDE, GNOME or XFCE."

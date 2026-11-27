@@ -1,0 +1,5 @@
+# Packaging script
+soplos-icons.sh
+
+# Build output
+*.deb

@@ -1,10 +1,9 @@
 # Soplos Icons
 
-![Version](https://img.shields.io/badge/version-development-blue)
-![License](https://img.shields.io/badge/license-not--specified-lightgrey)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green)
 ![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 ![Format](https://img.shields.io/badge/icons-SVG-orange)
-![Install](https://img.shields.io/badge/install-user--local-green)
 
 An original SVG icon theme for Soplos Linux, using a warm amber and orange
 palette with red and graphite accents.
@@ -33,14 +32,27 @@ icons, rendered from the theme's SVG files.
 
 ## What is included
 
-- 1,019 scalable SVG icons across apps, places, devices, mimetypes, categories,
-  actions, status and emblems.
+- 1,228 SVG icon names, drawn by 1,095 files and their aliases: scalable icons
+  across apps, places, devices, mimetypes, categories, actions, status and
+  emblems, and symbolic icons for places, actions, status and emblems.
 - Freedesktop-compatible `index.theme` metadata.
 - A user-local installer and uninstaller; no `sudo` is required.
 - Support for KDE Plasma, GNOME, Xfce and other desktops that follow the
   freedesktop icon theme specification.
 
 ## Installation
+
+### Debian package
+
+On Soplos Linux and other Debian-based systems, the `soplos-icons` package
+installs the theme for every user in `/usr/share/icons/Soplos/`:
+
+```bash
+sudo apt install ./soplos-icons_1.0.0_all.deb
+```
+
+It recommends the Adwaita, Breeze and hicolor themes, where the missing icons
+come from.
 
 ### User installation
 
@@ -87,11 +99,20 @@ editor.
 
 ## Credits
 
-The theme was created for the Soplos Linux project. Missing icons are resolved
-through the inherited Kora Soplos Dark, Adwaita, Breeze and hicolor themes;
-their artwork remains part of those respective projects.
+Original artwork by Sergi Perich and Juanjo Menent, created for the Soplos Linux
+project. Missing icons are resolved
+through the inherited Adwaita, Breeze and hicolor themes; their artwork remains
+part of those respective projects.
 
 ## License
 
-This repository does not currently include a license file. The redistribution
-terms for the Soplos artwork have not yet been specified.
+Copyright © 2026 Sergi Perich and Juanjo Menent.
+
+The icons are licensed under the
+[Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE)
+(CC BY-SA 4.0): you may use, change and share them as long as you credit the
+authors and share your versions under the same license.
+
+Some icons depict the logos of third-party applications. Those logos and names
+are trademarks of their owners; the license covers the drawings and grants no
+rights over the trademarks.

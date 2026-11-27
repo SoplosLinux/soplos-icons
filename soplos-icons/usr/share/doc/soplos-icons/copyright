@@ -1,0 +1,20 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: soplos-icons
+Source: https://github.com/SoplosLinux/soplos-icons
+
+Files: *
+Copyright: 2026 Sergi Perich
+           2026 Juanjo Menent
+License: CC-BY-SA-4.0
+Comment: Some icons depict the logos of third-party applications. Those logos
+ and names are trademarks of their owners; this license covers the drawings and
+ grants no rights over the trademarks.
+
+License: CC-BY-SA-4.0
+ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+ International License.
+ .
+ On Debian systems, the full text of the license can be found in
+ /usr/share/common-licenses/CC-BY-SA-4.0.
+ It is also available at
+ https://creativecommons.org/licenses/by-sa/4.0/legalcode
